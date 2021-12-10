@@ -1,15 +1,25 @@
 {
   "name": "vue-final-table",
+  "author":"chinayzq",
   "version": "0.1.0",
-  "private": true,
+  "discription": "终极表格",
+  "main": "lib/VueFinalTable.umd.min.js",
+  "keyword": "vuetable searchtable table",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name VueFinalTable --dest lib ./packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.19.3",
-    "vue": "^2.6.14"
+    "vue": "^2.6.14",
+    "element-ui": "^2.13.0",
+    "less": "^3.10.3",
+    "less-loader": "^4.1.0",
+    "jquery": "^3.3.1",
+    "moment": "^2.24.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.15",
