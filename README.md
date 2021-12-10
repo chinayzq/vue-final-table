@@ -38,7 +38,7 @@ cnpm install vue-final-table -S
 
 ```
 <!--main.js-->
-import VueFinalTable from 'com-color-button'
+import VueFinalTable from 'vue-final-table'
 import 'vue-final-table/lib/VueFinalTable.css'
 Vue.use(VueFinalTable)
 ```
